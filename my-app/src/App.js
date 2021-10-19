@@ -12,15 +12,26 @@ const App = () => {
     },
     {
       id: '2',
-      title: 'Estudar Programacao',
+      title: 'Ler livros',
       completed: true,
     },
+
   ])
 
   
-  return(<div className='container'>
-    <Tasks tasks={tasks} />
-  </div>) 
+  return(
+    
+      <>
+        <div className='container'>
+        <Tasks tasks={tasks} />
+        </div>
+        
+      </>
+
+        ) 
+  
+    
+
  
 };
 
